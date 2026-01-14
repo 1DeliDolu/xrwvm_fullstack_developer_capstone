@@ -1,0 +1,14 @@
+{
+  "name": "node-mongo-dockerized",
+  "version": "1.0.0",
+  "description": "Dockerized Node.js (Express + Mongoose) API with MongoDB",
+  "main": "server/database/app.js",
+  "scripts": {
+    "start": "node server/database/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0"
+  }
+}
